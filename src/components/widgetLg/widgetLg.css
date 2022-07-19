@@ -4,3 +4,35 @@
     -webkit-box-shadow: 0px 0px 15px -10px rgb(0, 0, 0, 0.75);
     padding: 20px;
 }
+
+.widgetLgTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.widgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetLgTh{
+    text-align: left;
+}
+
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.widgetLgUser > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widgetLgDate, .widgetLgAmount{
+    font-weight: 300;
+}
