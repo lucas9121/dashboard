@@ -3,6 +3,7 @@ import {FaRegUser} from 'react-icons/fa'
 import {FiBriefcase} from 'react-icons/fi'
 import {BsFillExclamationOctagonFill} from 'react-icons/bs'
 import './Sidebar.css'
+import { Link } from 'react-router-dom'
 export default function Sidebar(props){
     return(
         <div className="Sidebar">
@@ -12,7 +13,7 @@ export default function Sidebar(props){
                     <ul className="sidebar-list">
                         <li className="sidebar-item active">
                             <MdLineStyle />
-                            Home
+                            <Link to='/' >Home</Link>
                         </li>
                         <li className="sidebar-item">
                             <MdTimeline />
@@ -31,7 +32,7 @@ export default function Sidebar(props){
                     <ul className="sidebar-list">
                         <li className="sidebar-item">
                             <FaRegUser />
-                            Users
+                            <Link to="/users" >Users</Link>
                         </li>
                         <li className="sidebar-item">
                             <MdStorefront />
