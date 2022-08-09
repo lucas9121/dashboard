@@ -86,3 +86,71 @@
     color: #444;
     gap: 10px;
 }
+
+.userUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.userUpdateLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.userUpdateItem > label {
+    font-size: 14px;
+}
+
+.userUpdateItem > input {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.userUpdateRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userUpdateUpload > img{
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.userUpdateIcon{
+    cursor: pointer;
+    font-size: 22px !important;
+}
+
+.userUpdateRight > button {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}
