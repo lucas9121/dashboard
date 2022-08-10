@@ -1,3 +1,45 @@
 .newUser {
     flex: 4;
 }
+
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    gap: 10px 20px;
+}
+
+.newUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.newUserItem > label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.newUserItem > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.newUserGender {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.newUserGender > label {
+    color: #555;
+}
+
+.newUserItem > select {
+    height: 40px;
+    border-radius: 5px;
+}
