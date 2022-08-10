@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import UserList from './pages/UserList/UserList';
 import User from './pages/User/User';
+import NewUser from './pages/NewUser/NewUser';
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
 
@@ -16,6 +17,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/users' element={<UserList />} />
             <Route path='/user/:userId' element={<User/>} />
+            <Route path='/user/new' element={<NewUser />} />
         </Routes>
       </div>
     </main>
