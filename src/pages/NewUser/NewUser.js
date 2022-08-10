@@ -39,14 +39,15 @@ export default function NewUser() {
                         <input type="radio" name="gender" id="other" value="other" />
                         <label for="other">Other</label>
                     </div>
-                    <div className="newUserItem">
-                        <label>Active</label>
-                        <select className="newUserSelect" name="active" id="active">
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
                 </div>
+                <div className="newUserItem">
+                    <label>Active</label>
+                    <select className="newUserSelect" name="active" id="active">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <button>Create</button>
             </form>
         </div>
     )
