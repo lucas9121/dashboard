@@ -34,8 +34,8 @@
     gap: 5px;
 }
 
-.sidebar-item > a {
-    color: black;
+.sidebar-list > a {
+    color: #555;
     text-decoration: none;
 }
   
