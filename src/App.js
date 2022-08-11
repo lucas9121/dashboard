@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import UserList from './pages/UserList/UserList';
 import User from './pages/User/User';
 import NewUser from './pages/NewUser/NewUser';
+import ProductList from './pages/productList/productList';
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
 
@@ -17,7 +18,8 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/users' element={<UserList />} />
             <Route path='/user/:userId' element={<User/>} />
-            <Route path='/user/new' element={<NewUser />} />
+            <Route path='/newUser' element={<NewUser />} />
+            <Route path='/products' element={<ProductList />} />
         </Routes>
       </div>
     </main>
