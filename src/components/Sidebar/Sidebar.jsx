@@ -4,22 +4,33 @@ import {FiBriefcase} from 'react-icons/fi'
 import {BsFillExclamationOctagonFill} from 'react-icons/bs'
 import './Sidebar.css'
 import { Link } from 'react-router-dom'
+
 export default function Sidebar(props){
+    const handleClick = (title) => {
+        const li = document.querySelectorAll('.sidebar-item')
+        for(let i = 0; i < li.length; i++){
+            li[i].style.backgroundColor = 'rgb(251, 251, 255)'
+        }
+        title.target.style.backgroundColor = "rgb(240 240 250)"
+    }
+
     return(
         <div className="Sidebar">
             <div className="sidebarWrapper">
                 <div className="sidebar-menu">
                     <h3 className="sidebar-title">Dashboard</h3>
                     <ul className="sidebar-list">
-                        <li className="sidebar-item active">
-                            <MdLineStyle />
-                            <Link to='/' >Home</Link>
-                        </li>
-                        <li className="sidebar-item">
+                        <Link to='/' >
+                            <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item active">
+                                <MdLineStyle />
+                                Home
+                            </li>
+                        </Link>
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <MdTimeline />
                             Analytics
                         </li>
-                        <li className="sidebar-item">
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <MdTrendingUp />
                             Sales
                         </li>
@@ -30,19 +41,23 @@ export default function Sidebar(props){
                 <div className="sidebar-menu">
                     <h3 className="sidebar-title">Quick Menu</h3>
                     <ul className="sidebar-list">
-                        <li className="sidebar-item">
-                            <FaRegUser />
-                            <Link to="/users" >Users</Link>
-                        </li>
-                        <li className="sidebar-item">
-                            <MdStorefront />
-                            Products
-                        </li>
-                        <li className="sidebar-item">
+                        <Link to="/users" >
+                            <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
+                                <FaRegUser />
+                                Users
+                            </li>
+                        </Link>
+                        <Link to="/products">
+                            <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
+                                <MdStorefront />
+                                Products
+                            </li>
+                        </Link>
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <MdAttachMoney />
                             Transactions
                         </li>
-                        <li className="sidebar-item">
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <MdOutlineBarChart />
                             Reports
                         </li>
@@ -53,15 +68,15 @@ export default function Sidebar(props){
                 <div className="sidebar-menu">
                     <h3 className="sidebar-title">Notifications</h3>
                     <ul className="sidebar-list">
-                        <li className="sidebar-item">
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <MdMailOutline />
                             Mail
                         </li>
-                        <li className="sidebar-item">
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <MdDynamicFeed />
                             Feedback
                         </li>
-                        <li className="sidebar-item">
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <MdOutlineMessage />
                             Messages
                         </li>
@@ -72,15 +87,15 @@ export default function Sidebar(props){
                 <div className="sidebar-menu">
                     <h3 className="sidebar-title">Staff</h3>
                     <ul className="sidebar-list">
-                        <li className="sidebar-item">
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <FiBriefcase />
                             Manage
                         </li>
-                        <li className="sidebar-item">
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <MdTimeline />
                             Analytics
                         </li>
-                        <li className="sidebar-item">
+                        <li onClick={(evt) => {handleClick(evt)}} className="sidebar-item">
                             <BsFillExclamationOctagonFill />
                             Reports
                         </li>
