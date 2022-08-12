@@ -61,4 +61,16 @@ export const userRows = [
   { id: 9, username: 'Roxie', avatar: "https://img.pokemondb.net/sprites/trainers/diamond-pearl/candice.png", email: "roxie@gmail.com", status: "active", transaction: "$6120.00"},
 ];
 
+export const productRows = [
+  { id: 1, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$120.00" },
+  { id: 2, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$430.00"},
+  { id: 3, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$210.00"},
+  { id: 4, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$1530.00"},
+  { id: 5, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$120.00"},
+  { id: 6, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$1270.00"},
+  { id: 7, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$90.00"},
+  { id: 8, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$31420.00"},
+  { id: 9, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$6120.00"},
+];
+
   export default userData
