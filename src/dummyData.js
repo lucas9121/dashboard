@@ -62,15 +62,15 @@ export const userRows = [
 ];
 
 export const productRows = [
-  { id: 1, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$120.00" },
-  { id: 2, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$430.00"},
-  { id: 3, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$210.00"},
-  { id: 4, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$1530.00"},
-  { id: 5, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$120.00"},
-  { id: 6, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$1270.00"},
-  { id: 7, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$90.00"},
-  { id: 8, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$31420.00"},
-  { id: 9, name: 'Apple Airpods', img: "", stock: 123, status: "active", price: "$6120.00"},
+  { id: 1, name: 'Apple Airpods', img: "https://assets3.cbsnewsstatic.com/hub/i/2022/07/11/ca1ba957-09ce-4ac3-a554-95404edf9e51/gettyimages-1211718389.jpg", stock: 123, status: "active", price: "$120.00" },
+  { id: 2, name: 'Apple Airpods', img: "https://assets3.cbsnewsstatic.com/hub/i/2022/07/11/ca1ba957-09ce-4ac3-a554-95404edf9e51/gettyimages-1211718389.jpg", stock: 123, status: "active", price: "$430.00"},
+  { id: 3, name: 'Apple Airpods', img: "https://assets3.cbsnewsstatic.com/hub/i/2022/07/11/ca1ba957-09ce-4ac3-a554-95404edf9e51/gettyimages-1211718389.jpg", stock: 123, status: "active", price: "$210.00"},
+  { id: 4, name: 'Apple Airpods', img: "https://assets3.cbsnewsstatic.com/hub/i/2022/07/11/ca1ba957-09ce-4ac3-a554-95404edf9e51/gettyimages-1211718389.jpg", stock: 123, status: "active", price: "$1530.00"},
+  { id: 5, name: 'Apple Airpods', img: "https://assets3.cbsnewsstatic.com/hub/i/2022/07/11/ca1ba957-09ce-4ac3-a554-95404edf9e51/gettyimages-1211718389.jpg", stock: 123, status: "active", price: "$120.00"},
+  { id: 6, name: 'Apple Airpods', img: "https://assets3.cbsnewsstatic.com/hub/i/2022/07/11/ca1ba957-09ce-4ac3-a554-95404edf9e51/gettyimages-1211718389.jpg", stock: 123, status: "active", price: "$1270.00"},
+  { id: 7, name: 'Apple Airpods', img: "https://assets3.cbsnewsstatic.com/hub/i/2022/07/11/ca1ba957-09ce-4ac3-a554-95404edf9e51/gettyimages-1211718389.jpg", stock: 123, status: "active", price: "$90.00"},
+  { id: 8, name: 'Apple Airpods', img: "https://assets3.cbsnewsstatic.com/hub/i/2022/07/11/ca1ba957-09ce-4ac3-a554-95404edf9e51/gettyimages-1211718389.jpg", stock: 123, status: "active", price: "$31420.00"},
+  { id: 9, name: 'Apple Airpods', img: "https://assets3.cbsnewsstatic.com/hub/i/2022/07/11/ca1ba957-09ce-4ac3-a554-95404edf9e51/gettyimages-1211718389.jpg", stock: 123, status: "active", price: "$6120.00"},
 ];
 
   export default userData
