@@ -49,6 +49,21 @@ const userData = [
     },
   ];
 
+  export const productData = [
+    {
+      name: 'Jan',
+      sales: 4000,
+    },
+    {
+      name: 'Feb',
+      sales: 3000,
+    },
+    {
+      name: 'Mar',
+      sales: 5000,
+    }
+  ];
+
 export const userRows = [
   { id: 1, username: 'Jon', avatar: "https://img.pokemondb.net/sprites/trainers/heartgold-soulsilver/pryce.png", email: "jon@gmail.com", status: "active", transaction: "$120.00" },
   { id: 2, username: 'Lannister', avatar: "https://img.pokemondb.net/sprites/trainers/ruby-sapphire/norman.png", email: "lannister@gmail.com", status: "active", transaction: "$430.00"},
